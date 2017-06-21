@@ -1,0 +1,27 @@
+PODS:
+  - CocoaAsyncSocket (7.6.1)
+  - DXPopover (0.1.1)
+  - Masonry (1.0.2)
+  - Reveal-SDK (7)
+  - TTTAttributedLabel (2.0.0)
+  - UITableView+FDTemplateLayoutCell (1.6)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - DXPopover
+  - Masonry
+  - Reveal-SDK (~> 7)
+  - TTTAttributedLabel
+  - UITableView+FDTemplateLayoutCell
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  DXPopover: 13e6bbd1a0da4e62b2190de51f43a94850769e0f
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  Reveal-SDK: 564657bc66c93d2718b1c0121cdebe99d354ddab
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+
+PODFILE CHECKSUM: c571967a7f2627b00ba0fe5a0fe8055bfef0a9a0
+
+COCOAPODS: 1.1.1
