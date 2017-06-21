@@ -18,7 +18,7 @@
 #import "TestPriorityViewController.h"
 #import "HXYAlertViewController.h"
 #import <StoreKit/StoreKit.h>
-
+#import "Case1ViewController.h"
 @interface ViewController ()<SKStoreProductViewControllerDelegate>
 @property (nonatomic, strong) SKStoreProductViewController *vc;
 @end
@@ -52,7 +52,9 @@
     //    [self testPriority];
     
     //    [self inAppStorePurchase];//未完成
-    [self HXYAlertViewController];//这玩意儿还不行
+//    [self HXYAlertViewController];
+    Case1ViewController *vc = [[Case1ViewController alloc]init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 - (void)viewDidAppear:(BOOL)animated
 {

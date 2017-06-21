@@ -54,6 +54,9 @@
 		DC1F665B1EE03BEB00B2DA20 /* HXYMyInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1F665A1EE03BEB00B2DA20 /* HXYMyInfoView.m */; };
 		DC1F66611EE0408C00B2DA20 /* drawCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1F66601EE0408C00B2DA20 /* drawCurve.m */; };
 		DC33C8C61EE57CCD000858A0 /* BezierPathLearning.m in Sources */ = {isa = PBXBuildFile; fileRef = DC33C8C51EE57CCD000858A0 /* BezierPathLearning.m */; };
+		DC33C8FA1EFAA6A9000858A0 /* Case1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC33C8F81EFAA6A9000858A0 /* Case1ViewController.m */; };
+		DC33C8FD1EFAB46E000858A0 /* InterestingAutolayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC33C8FC1EFAB46E000858A0 /* InterestingAutolayout.storyboard */; };
+		DC33C9001EFAB808000858A0 /* AutoLayout2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC33C8FF1EFAB808000858A0 /* AutoLayout2ViewController.m */; };
 		DCFDE64D1ED9CACB0006DCFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDE64C1ED9CACB0006DCFE /* main.m */; };
 		DCFDE6501ED9CACB0006DCFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDE64F1ED9CACB0006DCFE /* AppDelegate.m */; };
 		DCFDE6531ED9CACB0006DCFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDE6521ED9CACB0006DCFE /* ViewController.m */; };
@@ -132,6 +135,11 @@
 		DC1F66601EE0408C00B2DA20 /* drawCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawCurve.m; sourceTree = "<group>"; };
 		DC33C8C41EE57CCD000858A0 /* BezierPathLearning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathLearning.h; sourceTree = "<group>"; };
 		DC33C8C51EE57CCD000858A0 /* BezierPathLearning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathLearning.m; sourceTree = "<group>"; };
+		DC33C8F71EFAA6A9000858A0 /* Case1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case1ViewController.h; sourceTree = "<group>"; };
+		DC33C8F81EFAA6A9000858A0 /* Case1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case1ViewController.m; sourceTree = "<group>"; };
+		DC33C8FC1EFAB46E000858A0 /* InterestingAutolayout.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = InterestingAutolayout.storyboard; path = "textAll/masonry布局系列/有趣的Autolayout2/InterestingAutolayout.storyboard"; sourceTree = SOURCE_ROOT; };
+		DC33C8FE1EFAB808000858A0 /* AutoLayout2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayout2ViewController.h; sourceTree = "<group>"; };
+		DC33C8FF1EFAB808000858A0 /* AutoLayout2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayout2ViewController.m; sourceTree = "<group>"; };
 		DCFDE6481ED9CACB0006DCFE /* textAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFDE64C1ED9CACB0006DCFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCFDE64E1ED9CACB0006DCFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -219,6 +227,7 @@
 		467FB8EB1EE94A5C0057998A /* masonry布局系列 */ = {
 			isa = PBXGroup;
 			children = (
+				DC33C8E51EFA9759000858A0 /* 有趣的Autolayout2 */,
 				462C4EAD1EEF81F70019E518 /* 测试优先级,压缩阻力,拉伸阻力 */,
 				467FB8F01EE950490057998A /* 动态高度Label */,
 				467FB8EC1EE94A5C0057998A /* 简单的masonry布局scrollView */,
@@ -341,6 +350,130 @@
 				6156D5A9A04864CA16C79CC9 /* Pods_textAll.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC33C8E51EFA9759000858A0 /* 有趣的Autolayout2 */ = {
+			isa = PBXGroup;
+			children = (
+				DC33C8FE1EFAB808000858A0 /* AutoLayout2ViewController.h */,
+				DC33C8FF1EFAB808000858A0 /* AutoLayout2ViewController.m */,
+				DC33C8FC1EFAB46E000858A0 /* InterestingAutolayout.storyboard */,
+				DC33C8E61EFA9759000858A0 /* Autolayout的“动态绑定”特性 */,
+				DC33C8E71EFA9759000858A0 /* cell中并排多个变高Label */,
+				DC33C8E81EFA9759000858A0 /* Parallax Header */,
+				DC33C8E91EFA9759000858A0 /* topOrBottomGuideView */,
+				DC33C8EA1EFA9759000858A0 /* View的intrinsicContentSize */,
+				DC33C8EB1EFA9759000858A0 /* 利用layoutIfNeeded控制约束生效时机 */,
+				DC33C8EC1EFA9759000858A0 /* 动态居中 */,
+				DC33C8ED1EFA9759000858A0 /* 动态展开TableViewCell */,
+				DC33C8EE1EFA9759000858A0 /* 变高 cell */,
+				DC33C8EF1EFA9759000858A0 /* 同一个属性可以添加多个约束 */,
+				DC33C8F01EFA9759000858A0 /* 并排Label */,
+				DC33C8F11EFA9759000858A0 /* 用优先级保证内容可见 */,
+				DC33C8F21EFA9759000858A0 /* 百分比宽度 */,
+				DC33C8F31EFA9759000858A0 /* 自定义Baseline */,
+			);
+			path = "有趣的Autolayout2";
+			sourceTree = "<group>";
+		};
+		DC33C8E61EFA9759000858A0 /* Autolayout的“动态绑定”特性 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Autolayout的“动态绑定”特性";
+			sourceTree = "<group>";
+		};
+		DC33C8E71EFA9759000858A0 /* cell中并排多个变高Label */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "cell中并排多个变高Label";
+			sourceTree = "<group>";
+		};
+		DC33C8E81EFA9759000858A0 /* Parallax Header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Parallax Header";
+			sourceTree = "<group>";
+		};
+		DC33C8E91EFA9759000858A0 /* topOrBottomGuideView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = topOrBottomGuideView;
+			sourceTree = "<group>";
+		};
+		DC33C8EA1EFA9759000858A0 /* View的intrinsicContentSize */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View的intrinsicContentSize";
+			sourceTree = "<group>";
+		};
+		DC33C8EB1EFA9759000858A0 /* 利用layoutIfNeeded控制约束生效时机 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "利用layoutIfNeeded控制约束生效时机";
+			sourceTree = "<group>";
+		};
+		DC33C8EC1EFA9759000858A0 /* 动态居中 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "动态居中";
+			sourceTree = "<group>";
+		};
+		DC33C8ED1EFA9759000858A0 /* 动态展开TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "动态展开TableViewCell";
+			sourceTree = "<group>";
+		};
+		DC33C8EE1EFA9759000858A0 /* 变高 cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "变高 cell";
+			sourceTree = "<group>";
+		};
+		DC33C8EF1EFA9759000858A0 /* 同一个属性可以添加多个约束 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "同一个属性可以添加多个约束";
+			sourceTree = "<group>";
+		};
+		DC33C8F01EFA9759000858A0 /* 并排Label */ = {
+			isa = PBXGroup;
+			children = (
+				DC33C8F71EFAA6A9000858A0 /* Case1ViewController.h */,
+				DC33C8F81EFAA6A9000858A0 /* Case1ViewController.m */,
+			);
+			path = "并排Label";
+			sourceTree = "<group>";
+		};
+		DC33C8F11EFA9759000858A0 /* 用优先级保证内容可见 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "用优先级保证内容可见";
+			sourceTree = "<group>";
+		};
+		DC33C8F21EFA9759000858A0 /* 百分比宽度 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "百分比宽度";
+			sourceTree = "<group>";
+		};
+		DC33C8F31EFA9759000858A0 /* 自定义Baseline */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "自定义Baseline";
 			sourceTree = "<group>";
 		};
 		DCFDE63F1ED9CACB0006DCFE = {
@@ -475,6 +608,7 @@
 				46BBCA001EE676EE00818DD9 /* estimateUnSelected@2x.png in Resources */,
 				46BBCA191EE6779500818DD9 /* 礼物.png in Resources */,
 				46BBCA121EE6779500818DD9 /* me-like.png in Resources */,
+				DC33C8FD1EFAB46E000858A0 /* InterestingAutolayout.storyboard in Resources */,
 				46BBCA181EE6779500818DD9 /* 现金_icon.png in Resources */,
 				46BBCA1A1EE6779500818DD9 /* 许愿星_icon.png in Resources */,
 				46BBCA111EE6779500818DD9 /* me-buy.png in Resources */,
@@ -556,7 +690,9 @@
 				DCFDE6531ED9CACB0006DCFE /* ViewController.m in Sources */,
 				467FB8F31EE950490057998A /* DynamicLabelViewController.m in Sources */,
 				46BBC9D21EE10FE900818DD9 /* HXYCustomButton.m in Sources */,
+				DC33C9001EFAB808000858A0 /* AutoLayout2ViewController.m in Sources */,
 				DC33C8C61EE57CCD000858A0 /* BezierPathLearning.m in Sources */,
+				DC33C8FA1EFAA6A9000858A0 /* Case1ViewController.m in Sources */,
 				DCFDE6641ED9CF8D0006DCFE /* HXYMyTableViewCell.m in Sources */,
 				DCFDE6501ED9CACB0006DCFE /* AppDelegate.m in Sources */,
 				467FB8DC1EE8F0170057998A /* AlterableHeightCellViewController.m in Sources */,

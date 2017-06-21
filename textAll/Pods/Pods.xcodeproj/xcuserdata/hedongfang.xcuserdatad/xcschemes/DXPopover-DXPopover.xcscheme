@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E31BAE32298564C707E596135323A09A"
-               BuildableName = "Pods_textAll.framework"
-               BlueprintName = "Pods-textAll"
+               BlueprintIdentifier = "8F5C57CDB6551A5057CEEE523A7EB36A"
+               BuildableName = "DXPopover.bundle"
+               BlueprintName = "DXPopover-DXPopover"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E31BAE32298564C707E596135323A09A"
-            BuildableName = "Pods_textAll.framework"
-            BlueprintName = "Pods-textAll"
+            BlueprintIdentifier = "8F5C57CDB6551A5057CEEE523A7EB36A"
+            BuildableName = "DXPopover.bundle"
+            BlueprintName = "DXPopover-DXPopover"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,6 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8F5C57CDB6551A5057CEEE523A7EB36A"
+            BuildableName = "DXPopover.bundle"
+            BlueprintName = "DXPopover-DXPopover"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
