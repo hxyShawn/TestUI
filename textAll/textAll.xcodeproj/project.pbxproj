@@ -37,6 +37,16 @@
 		46BBCA191EE6779500818DD9 /* 礼物.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BBCA0F1EE6779500818DD9 /* 礼物.png */; };
 		46BBCA1A1EE6779500818DD9 /* 许愿星_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BBCA101EE6779500818DD9 /* 许愿星_icon.png */; };
 		46BBCA1C1EE6876E00818DD9 /* my_info_middleCurve.png in Resources */ = {isa = PBXBuildFile; fileRef = 46BBCA1B1EE6876E00818DD9 /* my_info_middleCurve.png */; };
+		46DAF06D1EFBAAA400DFA687 /* NSDate+HXYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DAF0551EFBAAA400DFA687 /* NSDate+HXYCategory.m */; };
+		46DAF06E1EFBAAA400DFA687 /* NSString+HXYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DAF0571EFBAAA400DFA687 /* NSString+HXYCategory.m */; };
+		46DAF06F1EFBAAA400DFA687 /* UIButton+HXYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DAF0591EFBAAA400DFA687 /* UIButton+HXYCategory.m */; };
+		46DAF0701EFBAAA400DFA687 /* UIColor+HXYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DAF05B1EFBAAA400DFA687 /* UIColor+HXYCategory.m */; };
+		46DAF0711EFBAAA400DFA687 /* UIImage+HXYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DAF05D1EFBAAA400DFA687 /* UIImage+HXYCategory.m */; };
+		46DAF0721EFBAAA400DFA687 /* UIImageView+HXYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DAF05F1EFBAAA400DFA687 /* UIImageView+HXYCategory.m */; };
+		46DAF0731EFBAAA400DFA687 /* UILabel+HXYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DAF0611EFBAAA400DFA687 /* UILabel+HXYCategory.m */; };
+		46DAF0741EFBAAA400DFA687 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DAF0631EFBAAA400DFA687 /* UINavigationBar+Awesome.m */; };
+		46DAF0751EFBAAA400DFA687 /* UIView+HXYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DAF0651EFBAAA400DFA687 /* UIView+HXYCategory.m */; };
+		46DAF0761EFBAAA400DFA687 /* UIViewController+HXYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DAF0671EFBAAA400DFA687 /* UIViewController+HXYCategory.m */; };
 		46E90F2D1EF3A34C0086BD7C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E90F2C1EF3A34C0086BD7C /* libz.tbd */; };
 		46E90F2F1EF3A3530086BD7C /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E90F2E1EF3A3530086BD7C /* libbz2.tbd */; };
 		46E90F311EF3A3580086BD7C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E90F301EF3A3580086BD7C /* AudioToolbox.framework */; };
@@ -113,6 +123,26 @@
 		46BBCA101EE6779500818DD9 /* 许愿星_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "许愿星_icon.png"; sourceTree = "<group>"; };
 		46BBCA1B1EE6876E00818DD9 /* my_info_middleCurve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_info_middleCurve.png; sourceTree = "<group>"; };
 		46BBCA1D1EE6941900818DD9 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		46DAF0541EFBAAA400DFA687 /* NSDate+HXYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HXYCategory.h"; sourceTree = "<group>"; };
+		46DAF0551EFBAAA400DFA687 /* NSDate+HXYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HXYCategory.m"; sourceTree = "<group>"; };
+		46DAF0561EFBAAA400DFA687 /* NSString+HXYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HXYCategory.h"; sourceTree = "<group>"; };
+		46DAF0571EFBAAA400DFA687 /* NSString+HXYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HXYCategory.m"; sourceTree = "<group>"; };
+		46DAF0581EFBAAA400DFA687 /* UIButton+HXYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HXYCategory.h"; sourceTree = "<group>"; };
+		46DAF0591EFBAAA400DFA687 /* UIButton+HXYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HXYCategory.m"; sourceTree = "<group>"; };
+		46DAF05A1EFBAAA400DFA687 /* UIColor+HXYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HXYCategory.h"; sourceTree = "<group>"; };
+		46DAF05B1EFBAAA400DFA687 /* UIColor+HXYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HXYCategory.m"; sourceTree = "<group>"; };
+		46DAF05C1EFBAAA400DFA687 /* UIImage+HXYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HXYCategory.h"; sourceTree = "<group>"; };
+		46DAF05D1EFBAAA400DFA687 /* UIImage+HXYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HXYCategory.m"; sourceTree = "<group>"; };
+		46DAF05E1EFBAAA400DFA687 /* UIImageView+HXYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HXYCategory.h"; sourceTree = "<group>"; };
+		46DAF05F1EFBAAA400DFA687 /* UIImageView+HXYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HXYCategory.m"; sourceTree = "<group>"; };
+		46DAF0601EFBAAA400DFA687 /* UILabel+HXYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HXYCategory.h"; sourceTree = "<group>"; };
+		46DAF0611EFBAAA400DFA687 /* UILabel+HXYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HXYCategory.m"; sourceTree = "<group>"; };
+		46DAF0621EFBAAA400DFA687 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		46DAF0631EFBAAA400DFA687 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		46DAF0641EFBAAA400DFA687 /* UIView+HXYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HXYCategory.h"; sourceTree = "<group>"; };
+		46DAF0651EFBAAA400DFA687 /* UIView+HXYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HXYCategory.m"; sourceTree = "<group>"; };
+		46DAF0661EFBAAA400DFA687 /* UIViewController+HXYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HXYCategory.h"; sourceTree = "<group>"; };
+		46DAF0671EFBAAA400DFA687 /* UIViewController+HXYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HXYCategory.m"; sourceTree = "<group>"; };
 		46E90F2C1EF3A34C0086BD7C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		46E90F2E1EF3A3530086BD7C /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		46E90F301EF3A3580086BD7C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -322,6 +352,33 @@
 			path = middleIcon;
 			sourceTree = "<group>";
 		};
+		46DAF04C1EFBAAA400DFA687 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				46DAF0541EFBAAA400DFA687 /* NSDate+HXYCategory.h */,
+				46DAF0551EFBAAA400DFA687 /* NSDate+HXYCategory.m */,
+				46DAF0561EFBAAA400DFA687 /* NSString+HXYCategory.h */,
+				46DAF0571EFBAAA400DFA687 /* NSString+HXYCategory.m */,
+				46DAF0581EFBAAA400DFA687 /* UIButton+HXYCategory.h */,
+				46DAF0591EFBAAA400DFA687 /* UIButton+HXYCategory.m */,
+				46DAF05A1EFBAAA400DFA687 /* UIColor+HXYCategory.h */,
+				46DAF05B1EFBAAA400DFA687 /* UIColor+HXYCategory.m */,
+				46DAF05C1EFBAAA400DFA687 /* UIImage+HXYCategory.h */,
+				46DAF05D1EFBAAA400DFA687 /* UIImage+HXYCategory.m */,
+				46DAF05E1EFBAAA400DFA687 /* UIImageView+HXYCategory.h */,
+				46DAF05F1EFBAAA400DFA687 /* UIImageView+HXYCategory.m */,
+				46DAF0601EFBAAA400DFA687 /* UILabel+HXYCategory.h */,
+				46DAF0611EFBAAA400DFA687 /* UILabel+HXYCategory.m */,
+				46DAF0621EFBAAA400DFA687 /* UINavigationBar+Awesome.h */,
+				46DAF0631EFBAAA400DFA687 /* UINavigationBar+Awesome.m */,
+				46DAF0641EFBAAA400DFA687 /* UIView+HXYCategory.h */,
+				46DAF0651EFBAAA400DFA687 /* UIView+HXYCategory.m */,
+				46DAF0661EFBAAA400DFA687 /* UIViewController+HXYCategory.h */,
+				46DAF0671EFBAAA400DFA687 /* UIViewController+HXYCategory.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		65C5E28D302FBC7A93283146 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -497,6 +554,7 @@
 		DCFDE64A1ED9CACB0006DCFE /* textAll */ = {
 			isa = PBXGroup;
 			children = (
+				46DAF04C1EFBAAA400DFA687 /* Tools */,
 				467AD3681EF215F900484253 /* Socket */,
 				467AD3671EF139B300484253 /* DXPopView */,
 				463ADD1F1EF110540062422D /* 弹出框 */,
@@ -689,19 +747,29 @@
 				467FB8EF1EE94A5C0057998A /* AdViewController.m in Sources */,
 				DCFDE6531ED9CACB0006DCFE /* ViewController.m in Sources */,
 				467FB8F31EE950490057998A /* DynamicLabelViewController.m in Sources */,
+				46DAF06E1EFBAAA400DFA687 /* NSString+HXYCategory.m in Sources */,
 				46BBC9D21EE10FE900818DD9 /* HXYCustomButton.m in Sources */,
 				DC33C9001EFAB808000858A0 /* AutoLayout2ViewController.m in Sources */,
 				DC33C8C61EE57CCD000858A0 /* BezierPathLearning.m in Sources */,
 				DC33C8FA1EFAA6A9000858A0 /* Case1ViewController.m in Sources */,
 				DCFDE6641ED9CF8D0006DCFE /* HXYMyTableViewCell.m in Sources */,
 				DCFDE6501ED9CACB0006DCFE /* AppDelegate.m in Sources */,
+				46DAF06D1EFBAAA400DFA687 /* NSDate+HXYCategory.m in Sources */,
+				46DAF0731EFBAAA400DFA687 /* UILabel+HXYCategory.m in Sources */,
 				467FB8DC1EE8F0170057998A /* AlterableHeightCellViewController.m in Sources */,
+				46DAF0721EFBAAA400DFA687 /* UIImageView+HXYCategory.m in Sources */,
+				46DAF0741EFBAAA400DFA687 /* UINavigationBar+Awesome.m in Sources */,
 				467FB8D81EE7AA360057998A /* HXYMyViewController.m in Sources */,
 				463ADD221EF110790062422D /* HXYAlertViewController.m in Sources */,
 				DC1F66581EE03BA100B2DA20 /* HxyTestCellViewController.m in Sources */,
 				467FB8DF1EE8F0230057998A /* AlterableHeightCellTableViewCell.m in Sources */,
+				46DAF0711EFBAAA400DFA687 /* UIImage+HXYCategory.m in Sources */,
+				46DAF0761EFBAAA400DFA687 /* UIViewController+HXYCategory.m in Sources */,
 				46BBC9D31EE10FE900818DD9 /* HXYEstimateStarView.m in Sources */,
+				46DAF0751EFBAAA400DFA687 /* UIView+HXYCategory.m in Sources */,
 				DCFDE64D1ED9CACB0006DCFE /* main.m in Sources */,
+				46DAF06F1EFBAAA400DFA687 /* UIButton+HXYCategory.m in Sources */,
+				46DAF0701EFBAAA400DFA687 /* UIColor+HXYCategory.m in Sources */,
 				467AD36B1EF2160A00484253 /* SocketManager.m in Sources */,
 				46BBC9DF1EE10FE900818DD9 /* HXYTextView.m in Sources */,
 			);

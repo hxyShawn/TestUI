@@ -63,7 +63,7 @@
     
     [_label2 mas_makeConstraints:^(MASConstraintMaker *make) {
         //左边贴着label1
-        make.left.equalTo(_label1.mas_right).with.offset(2);
+        make.left.greaterThanOrEqualTo(_label1.mas_right).with.offset(2);
         
         //上边贴着父view
         make.top.equalTo(_contentView1.mas_top).with.offset(5);
@@ -71,7 +71,7 @@
         //右边的间隔保持大于等于2，注意是lessThanOrEqual
         //这里的“lessThanOrEqualTo”放在从左往右的X轴上考虑会更好理解。
         //即：label2的右边界的X坐标值“小于等于”containView的右边界的X坐标值。
-        make.right.lessThanOrEqualTo(_contentView1.mas_right).with.offset(-2);
+        make.right.equalTo(_contentView1.mas_right).with.offset(-2);
         
         //只设置高度40
         make.height.equalTo(@40);
