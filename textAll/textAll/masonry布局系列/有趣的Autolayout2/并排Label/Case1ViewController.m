@@ -84,7 +84,7 @@
      Content Hugging = 抱紧！
      这个属性的优先级越高，整个View就要越“抱紧”View里面的内容。也就是View的大小不会随着父级View的扩大而扩大。*/
     /*
-     在这里，2的compressionResistancePriority比1高，所以不论如何1如何增加1都会显示，如果交换两者的优先级，那么无论如何1都会显示
+     在这里，2的compressionResistancePriority比1高，所以不论如何1如何增加2都会显示，如果交换两者的优先级，那么无论如何1都会显示
      */
     //设置label1的content hugging 为1000
     [_label1 setContentHuggingPriority:UILayoutPriorityRequired
