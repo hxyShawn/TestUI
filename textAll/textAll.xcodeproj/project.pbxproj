@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		462C4EB01EEF820F0019E518 /* TestPriorityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462C4EAF1EEF820F0019E518 /* TestPriorityViewController.m */; };
 		463ADD221EF110790062422D /* HXYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 463ADD211EF110790062422D /* HXYAlertViewController.m */; };
+		46629DD91F00BA9500E3B1B9 /* HXYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 46629DD81F00BA9500E3B1B9 /* HXYButton.m */; };
 		4677CC7C1EEA53C9007B9B53 /* dogebread.png in Resources */ = {isa = PBXBuildFile; fileRef = 4677CC7B1EEA53C9007B9B53 /* dogebread.png */; };
 		4677CC7E1EEA53FA007B9B53 /* doge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4677CC7D1EEA53FA007B9B53 /* doge@2x.png */; };
 		467AD36B1EF2160A00484253 /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 467AD36A1EF2160A00484253 /* SocketManager.m */; };
@@ -84,6 +85,8 @@
 		462C4EAF1EEF820F0019E518 /* TestPriorityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPriorityViewController.m; sourceTree = "<group>"; };
 		463ADD201EF110790062422D /* HXYAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXYAlertViewController.h; sourceTree = "<group>"; };
 		463ADD211EF110790062422D /* HXYAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXYAlertViewController.m; sourceTree = "<group>"; };
+		46629DD71F00BA9500E3B1B9 /* HXYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXYButton.h; sourceTree = "<group>"; };
+		46629DD81F00BA9500E3B1B9 /* HXYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXYButton.m; sourceTree = "<group>"; };
 		4677CC7B1EEA53C9007B9B53 /* dogebread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dogebread.png; sourceTree = "<group>"; };
 		4677CC7D1EEA53FA007B9B53 /* doge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doge@2x.png"; sourceTree = "<group>"; };
 		467AD3691EF2160A00484253 /* SocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketManager.h; sourceTree = "<group>"; };
@@ -290,6 +293,8 @@
 				46BBC9B41EE10FE900818DD9 /* HXYCustomButton.m */,
 				46BBC9B51EE10FE900818DD9 /* HXYEstimateStarView.h */,
 				46BBC9B61EE10FE900818DD9 /* HXYEstimateStarView.m */,
+				46629DD71F00BA9500E3B1B9 /* HXYButton.h */,
+				46629DD81F00BA9500E3B1B9 /* HXYButton.m */,
 			);
 			path = "带文字选择评价的星星等级";
 			sourceTree = "<group>";
@@ -770,6 +775,7 @@
 				DCFDE64D1ED9CACB0006DCFE /* main.m in Sources */,
 				46DAF06F1EFBAAA400DFA687 /* UIButton+HXYCategory.m in Sources */,
 				46DAF0701EFBAAA400DFA687 /* UIColor+HXYCategory.m in Sources */,
+				46629DD91F00BA9500E3B1B9 /* HXYButton.m in Sources */,
 				467AD36B1EF2160A00484253 /* SocketManager.m in Sources */,
 				46BBC9DF1EE10FE900818DD9 /* HXYTextView.m in Sources */,
 			);
