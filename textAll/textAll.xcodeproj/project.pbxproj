@@ -68,6 +68,14 @@
 		DC33C8FA1EFAA6A9000858A0 /* Case1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC33C8F81EFAA6A9000858A0 /* Case1ViewController.m */; };
 		DC33C8FD1EFAB46E000858A0 /* InterestingAutolayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC33C8FC1EFAB46E000858A0 /* InterestingAutolayout.storyboard */; };
 		DC33C9001EFAB808000858A0 /* AutoLayout2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC33C8FF1EFAB808000858A0 /* AutoLayout2ViewController.m */; };
+		DC33C9031EFBF975000858A0 /* Case2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC33C9021EFBF975000858A0 /* Case2ViewController.m */; };
+		DC33C9061EFC05A0000858A0 /* PercentWIdthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC33C9051EFC05A0000858A0 /* PercentWIdthViewController.m */; };
+		DC46ED6F1EFF84E3005A1302 /* selfAdjustCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED6E1EFF84E3005A1302 /* selfAdjustCellViewController.m */; };
+		DC46ED721EFF8531005A1302 /* SelfAdjustTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED711EFF8531005A1302 /* SelfAdjustTableViewCell.m */; };
+		DC46ED751EFF8722005A1302 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED741EFF8722005A1302 /* Model.m */; };
+		DC46ED781EFF8829005A1302 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED771EFF8829005A1302 /* Common.m */; };
+		DC46ED7B1F012852005A1302 /* case5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED7A1F012852005A1302 /* case5ViewController.m */; };
+		DC46ED811F028A6A005A1302 /* Case7TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED801F028A6A005A1302 /* Case7TableViewController.m */; };
 		DCFDE64D1ED9CACB0006DCFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDE64C1ED9CACB0006DCFE /* main.m */; };
 		DCFDE6501ED9CACB0006DCFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDE64F1ED9CACB0006DCFE /* AppDelegate.m */; };
 		DCFDE6531ED9CACB0006DCFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDE6521ED9CACB0006DCFE /* ViewController.m */; };
@@ -173,6 +181,22 @@
 		DC33C8FC1EFAB46E000858A0 /* InterestingAutolayout.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = InterestingAutolayout.storyboard; path = "textAll/masonry布局系列/有趣的Autolayout2/InterestingAutolayout.storyboard"; sourceTree = SOURCE_ROOT; };
 		DC33C8FE1EFAB808000858A0 /* AutoLayout2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayout2ViewController.h; sourceTree = "<group>"; };
 		DC33C8FF1EFAB808000858A0 /* AutoLayout2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayout2ViewController.m; sourceTree = "<group>"; };
+		DC33C9011EFBF975000858A0 /* Case2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case2ViewController.h; sourceTree = "<group>"; };
+		DC33C9021EFBF975000858A0 /* Case2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case2ViewController.m; sourceTree = "<group>"; };
+		DC33C9041EFC05A0000858A0 /* PercentWIdthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercentWIdthViewController.h; sourceTree = "<group>"; };
+		DC33C9051EFC05A0000858A0 /* PercentWIdthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercentWIdthViewController.m; sourceTree = "<group>"; };
+		DC46ED6D1EFF84E3005A1302 /* selfAdjustCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selfAdjustCellViewController.h; sourceTree = "<group>"; };
+		DC46ED6E1EFF84E3005A1302 /* selfAdjustCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selfAdjustCellViewController.m; sourceTree = "<group>"; };
+		DC46ED701EFF8531005A1302 /* SelfAdjustTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfAdjustTableViewCell.h; sourceTree = "<group>"; };
+		DC46ED711EFF8531005A1302 /* SelfAdjustTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfAdjustTableViewCell.m; sourceTree = "<group>"; };
+		DC46ED731EFF8722005A1302 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		DC46ED741EFF8722005A1302 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		DC46ED761EFF8829005A1302 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		DC46ED771EFF8829005A1302 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		DC46ED791F012852005A1302 /* case5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = case5ViewController.h; sourceTree = "<group>"; };
+		DC46ED7A1F012852005A1302 /* case5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = case5ViewController.m; sourceTree = "<group>"; };
+		DC46ED7F1F028A6A005A1302 /* Case7TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case7TableViewController.h; sourceTree = "<group>"; };
+		DC46ED801F028A6A005A1302 /* Case7TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case7TableViewController.m; sourceTree = "<group>"; };
 		DCFDE6481ED9CACB0006DCFE /* textAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFDE64C1ED9CACB0006DCFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCFDE64E1ED9CACB0006DCFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -417,6 +441,8 @@
 		DC33C8E51EFA9759000858A0 /* 有趣的Autolayout2 */ = {
 			isa = PBXGroup;
 			children = (
+				DC46ED761EFF8829005A1302 /* Common.h */,
+				DC46ED771EFF8829005A1302 /* Common.m */,
 				DC33C8FE1EFAB808000858A0 /* AutoLayout2ViewController.h */,
 				DC33C8FF1EFAB808000858A0 /* AutoLayout2ViewController.m */,
 				DC33C8FC1EFAB46E000858A0 /* InterestingAutolayout.storyboard */,
@@ -455,6 +481,8 @@
 		DC33C8E81EFA9759000858A0 /* Parallax Header */ = {
 			isa = PBXGroup;
 			children = (
+				DC46ED7F1F028A6A005A1302 /* Case7TableViewController.h */,
+				DC46ED801F028A6A005A1302 /* Case7TableViewController.m */,
 			);
 			path = "Parallax Header";
 			sourceTree = "<group>";
@@ -462,6 +490,8 @@
 		DC33C8E91EFA9759000858A0 /* topOrBottomGuideView */ = {
 			isa = PBXGroup;
 			children = (
+				DC46ED791F012852005A1302 /* case5ViewController.h */,
+				DC46ED7A1F012852005A1302 /* case5ViewController.m */,
 			);
 			path = topOrBottomGuideView;
 			sourceTree = "<group>";
@@ -483,6 +513,8 @@
 		DC33C8EC1EFA9759000858A0 /* 动态居中 */ = {
 			isa = PBXGroup;
 			children = (
+				DC33C9011EFBF975000858A0 /* Case2ViewController.h */,
+				DC33C9021EFBF975000858A0 /* Case2ViewController.m */,
 			);
 			path = "动态居中";
 			sourceTree = "<group>";
@@ -497,6 +529,12 @@
 		DC33C8EE1EFA9759000858A0 /* 变高 cell */ = {
 			isa = PBXGroup;
 			children = (
+				DC46ED6D1EFF84E3005A1302 /* selfAdjustCellViewController.h */,
+				DC46ED6E1EFF84E3005A1302 /* selfAdjustCellViewController.m */,
+				DC46ED701EFF8531005A1302 /* SelfAdjustTableViewCell.h */,
+				DC46ED711EFF8531005A1302 /* SelfAdjustTableViewCell.m */,
+				DC46ED731EFF8722005A1302 /* Model.h */,
+				DC46ED741EFF8722005A1302 /* Model.m */,
 			);
 			path = "变高 cell";
 			sourceTree = "<group>";
@@ -527,6 +565,8 @@
 		DC33C8F21EFA9759000858A0 /* 百分比宽度 */ = {
 			isa = PBXGroup;
 			children = (
+				DC33C9041EFC05A0000858A0 /* PercentWIdthViewController.h */,
+				DC33C9051EFC05A0000858A0 /* PercentWIdthViewController.m */,
 			);
 			path = "百分比宽度";
 			sourceTree = "<group>";
@@ -745,11 +785,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC46ED721EFF8531005A1302 /* SelfAdjustTableViewCell.m in Sources */,
 				46BBC9F71EE6452A00818DD9 /* HXYHorizontalTextButton.m in Sources */,
+				DC46ED781EFF8829005A1302 /* Common.m in Sources */,
+				DC46ED7B1F012852005A1302 /* case5ViewController.m in Sources */,
 				DC1F665B1EE03BEB00B2DA20 /* HXYMyInfoView.m in Sources */,
 				462C4EB01EEF820F0019E518 /* TestPriorityViewController.m in Sources */,
 				DC1F66611EE0408C00B2DA20 /* drawCurve.m in Sources */,
 				467FB8EF1EE94A5C0057998A /* AdViewController.m in Sources */,
+				DC46ED6F1EFF84E3005A1302 /* selfAdjustCellViewController.m in Sources */,
 				DCFDE6531ED9CACB0006DCFE /* ViewController.m in Sources */,
 				467FB8F31EE950490057998A /* DynamicLabelViewController.m in Sources */,
 				46DAF06E1EFBAAA400DFA687 /* NSString+HXYCategory.m in Sources */,
@@ -758,11 +802,13 @@
 				DC33C8C61EE57CCD000858A0 /* BezierPathLearning.m in Sources */,
 				DC33C8FA1EFAA6A9000858A0 /* Case1ViewController.m in Sources */,
 				DCFDE6641ED9CF8D0006DCFE /* HXYMyTableViewCell.m in Sources */,
+				DC33C9061EFC05A0000858A0 /* PercentWIdthViewController.m in Sources */,
 				DCFDE6501ED9CACB0006DCFE /* AppDelegate.m in Sources */,
 				46DAF06D1EFBAAA400DFA687 /* NSDate+HXYCategory.m in Sources */,
 				46DAF0731EFBAAA400DFA687 /* UILabel+HXYCategory.m in Sources */,
 				467FB8DC1EE8F0170057998A /* AlterableHeightCellViewController.m in Sources */,
 				46DAF0721EFBAAA400DFA687 /* UIImageView+HXYCategory.m in Sources */,
+				DC46ED811F028A6A005A1302 /* Case7TableViewController.m in Sources */,
 				46DAF0741EFBAAA400DFA687 /* UINavigationBar+Awesome.m in Sources */,
 				467FB8D81EE7AA360057998A /* HXYMyViewController.m in Sources */,
 				463ADD221EF110790062422D /* HXYAlertViewController.m in Sources */,
@@ -772,11 +818,13 @@
 				46DAF0761EFBAAA400DFA687 /* UIViewController+HXYCategory.m in Sources */,
 				46BBC9D31EE10FE900818DD9 /* HXYEstimateStarView.m in Sources */,
 				46DAF0751EFBAAA400DFA687 /* UIView+HXYCategory.m in Sources */,
+				DC33C9031EFBF975000858A0 /* Case2ViewController.m in Sources */,
 				DCFDE64D1ED9CACB0006DCFE /* main.m in Sources */,
 				46DAF06F1EFBAAA400DFA687 /* UIButton+HXYCategory.m in Sources */,
 				46DAF0701EFBAAA400DFA687 /* UIColor+HXYCategory.m in Sources */,
 				46629DD91F00BA9500E3B1B9 /* HXYButton.m in Sources */,
 				467AD36B1EF2160A00484253 /* SocketManager.m in Sources */,
+				DC46ED751EFF8722005A1302 /* Model.m in Sources */,
 				46BBC9DF1EE10FE900818DD9 /* HXYTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
