@@ -80,6 +80,7 @@ static NSString *CellIdentifier = @"Cell";
 - (void)initView {
     _parallaxHeaderView = [UIImageView new];
     [self.view insertSubview:_parallaxHeaderView belowSubview:self.tableView];
+//    [self.view  addSubview:_parallaxHeaderView];
     _parallaxHeaderView.contentMode = UIViewContentModeScaleAspectFill;
     _parallaxHeaderView.image = [UIImage imageNamed:@"parallax_header_back"];
     

@@ -75,6 +75,9 @@
 		DC46ED781EFF8829005A1302 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED771EFF8829005A1302 /* Common.m */; };
 		DC46ED7B1F012852005A1302 /* case5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED7A1F012852005A1302 /* case5ViewController.m */; };
 		DC46ED811F028A6A005A1302 /* Case7TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED801F028A6A005A1302 /* Case7TableViewController.m */; };
+		DC46ED8B1F069929005A1302 /* Case8Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED861F069929005A1302 /* Case8Cell.m */; };
+		DC46ED8C1F069929005A1302 /* Case8DataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED881F069929005A1302 /* Case8DataEntity.m */; };
+		DC46ED901F069956005A1302 /* Case8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED8F1F069956005A1302 /* Case8ViewController.m */; };
 		DCFDE64D1ED9CACB0006DCFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDE64C1ED9CACB0006DCFE /* main.m */; };
 		DCFDE6501ED9CACB0006DCFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDE64F1ED9CACB0006DCFE /* AppDelegate.m */; };
 		DCFDE6531ED9CACB0006DCFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDE6521ED9CACB0006DCFE /* ViewController.m */; };
@@ -194,6 +197,12 @@
 		DC46ED7A1F012852005A1302 /* case5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = case5ViewController.m; sourceTree = "<group>"; };
 		DC46ED7F1F028A6A005A1302 /* Case7TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case7TableViewController.h; sourceTree = "<group>"; };
 		DC46ED801F028A6A005A1302 /* Case7TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case7TableViewController.m; sourceTree = "<group>"; };
+		DC46ED851F069929005A1302 /* Case8Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case8Cell.h; sourceTree = "<group>"; };
+		DC46ED861F069929005A1302 /* Case8Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case8Cell.m; sourceTree = "<group>"; };
+		DC46ED871F069929005A1302 /* Case8DataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case8DataEntity.h; sourceTree = "<group>"; };
+		DC46ED881F069929005A1302 /* Case8DataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case8DataEntity.m; sourceTree = "<group>"; };
+		DC46ED8E1F069956005A1302 /* Case8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case8ViewController.h; sourceTree = "<group>"; };
+		DC46ED8F1F069956005A1302 /* Case8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case8ViewController.m; sourceTree = "<group>"; };
 		DCFDE6481ED9CACB0006DCFE /* textAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFDE64C1ED9CACB0006DCFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCFDE64E1ED9CACB0006DCFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -517,6 +526,12 @@
 		DC33C8ED1EFA9759000858A0 /* 动态展开TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				DC46ED851F069929005A1302 /* Case8Cell.h */,
+				DC46ED861F069929005A1302 /* Case8Cell.m */,
+				DC46ED8E1F069956005A1302 /* Case8ViewController.h */,
+				DC46ED8F1F069956005A1302 /* Case8ViewController.m */,
+				DC46ED871F069929005A1302 /* Case8DataEntity.h */,
+				DC46ED881F069929005A1302 /* Case8DataEntity.m */,
 			);
 			path = "动态展开TableViewCell";
 			sourceTree = "<group>";
@@ -799,6 +814,7 @@
 				DCFDE6641ED9CF8D0006DCFE /* HXYMyTableViewCell.m in Sources */,
 				DC33C9061EFC05A0000858A0 /* PercentWIdthViewController.m in Sources */,
 				DCFDE6501ED9CACB0006DCFE /* AppDelegate.m in Sources */,
+				DC46ED901F069956005A1302 /* Case8ViewController.m in Sources */,
 				46DAF06D1EFBAAA400DFA687 /* NSDate+HXYCategory.m in Sources */,
 				46DAF0731EFBAAA400DFA687 /* UILabel+HXYCategory.m in Sources */,
 				467FB8DC1EE8F0170057998A /* AlterableHeightCellViewController.m in Sources */,
@@ -811,12 +827,14 @@
 				467FB8DF1EE8F0230057998A /* AlterableHeightCellTableViewCell.m in Sources */,
 				46DAF0711EFBAAA400DFA687 /* UIImage+HXYCategory.m in Sources */,
 				46DAF0761EFBAAA400DFA687 /* UIViewController+HXYCategory.m in Sources */,
+				DC46ED8C1F069929005A1302 /* Case8DataEntity.m in Sources */,
 				46BBC9D31EE10FE900818DD9 /* HXYEstimateStarView.m in Sources */,
 				46DAF0751EFBAAA400DFA687 /* UIView+HXYCategory.m in Sources */,
 				DC33C9031EFBF975000858A0 /* Case2ViewController.m in Sources */,
 				DCFDE64D1ED9CACB0006DCFE /* main.m in Sources */,
 				46DAF06F1EFBAAA400DFA687 /* UIButton+HXYCategory.m in Sources */,
 				46DAF0701EFBAAA400DFA687 /* UIColor+HXYCategory.m in Sources */,
+				DC46ED8B1F069929005A1302 /* Case8Cell.m in Sources */,
 				467AD36B1EF2160A00484253 /* SocketManager.m in Sources */,
 				DC46ED751EFF8722005A1302 /* Model.m in Sources */,
 				46BBC9DF1EE10FE900818DD9 /* HXYTextView.m in Sources */,
