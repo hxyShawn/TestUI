@@ -3,7 +3,7 @@
 
 target 'textAll' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
-  use_frameworks! # Add this if you are targeting iOS 8+ or using Swift
+#  use_frameworks! # Add this if you are targeting iOS 8+ or using Swift
   # Pods for textAll
 pod 'Masonry'
 pod 'TTTAttributedLabel'
@@ -11,4 +11,5 @@ pod 'Reveal-SDK', '~> 7', :configurations => ['Debug']
 pod 'UITableView+FDTemplateLayoutCell'
 pod 'DXPopover'
 pod 'CocoaAsyncSocket'
+pod 'SDWebImage'
 end

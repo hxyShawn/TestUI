@@ -7,7 +7,7 @@
 //
 
 #import "MBProgressHUD+BWMExtension.h"
-
+#import <objc/runtime.h>
 NSString * const kHXYMBProgressHUDMsgLoading = @"正在加载...";
 NSString * const kHXYMBProgressHUDMsgLoadError = @"加载失败";
 NSString * const kHXYMBProgressHUDMsgLoadSuccessful = @"加载成功";
@@ -20,8 +20,17 @@ static CGFloat OPACITY = 0.85;
 #define DEFAULTDETAILFONT [UIFont boldSystemFontOfSize:12.f]
 #define DEFAULTTEXTCOLOR [UIColor whiteColor]
 
-
 @implementation MBProgressHUD (BWMExtension)
+@dynamic hud;
+static char hudKey;
+- (void)setHud:(MBProgressHUD *)hud
+{
+    objc_setAssociatedObject(self, &hudKey, hud, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (MBProgressHUD *) associateLength{
+    return (MBProgressHUD *)objc_getAssociatedObject(self, &hudKey) ;
+}
 
 + (MBProgressHUD *)hxy_showHUDAddedTo:(UIView *)view labelText:(NSString *)labelText detailText:(NSString *)detailText labelFont:(UIFont *)labelFont labelColor:(UIColor *)labelColor detailFont:(UIFont *)detailFont detailColor:(UIColor *)detailColor opacity:(CGFloat)opacity delay:(NSTimeInterval)delay mode:(MBProgressHUDMode)mode
 {
@@ -43,8 +52,9 @@ static CGFloat OPACITY = 0.85;
     HUD.mode = mode;
     [HUD show:YES];
     if (delay <= 0) {
-        [HUD hide:YES afterDelay:1.5];
+        delay = 1.5;
     }
+    [HUD hide:YES afterDelay:delay];
     return HUD;
 }
 

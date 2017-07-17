@@ -7,8 +7,8 @@
 //
 
 #import "HXYAuthenticationView.h"
-#import <Masonry.h>
-
+#import <Masonry/Masonry.h>
+#import "NSString+HXYCategory.h"
 @interface HXYAuthenticationView()<UITextFieldDelegate>
 @property (nonatomic, copy) NSArray *array;
 @property (nonatomic, copy) NSString *titleStr;
@@ -42,7 +42,7 @@
     UILabel *titleLable = [[UILabel alloc]init];
     titleLable.text = self.titleStr;
     titleLable.textColor = RGBA(0, 0, 0, 0.87);
-    titleLable.font = PF(Medium, 13);
+//    titleLable.font = PF(Medium, 13);
     titleLable.textAlignment = NSTextAlignmentCenter;
     [topView addSubview:titleLable];
     
@@ -60,7 +60,7 @@
         make.height.equalTo(self.mas_height).with.multipliedBy(0.26);
     }];
     self.tf = [[UITextField alloc]init];
-    self.tf.attributedPlaceholder = [[NSAttributedString alloc]initWithString:self.placeholder attributes:@{NSForegroundColorAttributeName : RGBA(0, 0, 0, 0.75),NSFontAttributeName : PF(Medium, 14)}];
+//    self.tf.attributedPlaceholder = [[NSAttributedString alloc]initWithString:self.placeholder attributes:@{NSForegroundColorAttributeName : RGBA(0, 0, 0, 0.75),NSFontAttributeName : PF(Medium, 14)}];
     self.tf.keyboardType = UIKeyboardTypeDefault;
     self.tf.delegate = self;
     [middleView addSubview:self.tf];
@@ -96,7 +96,7 @@
     self.btnArray = [NSMutableArray array];
     NSArray *array = @[@"取消",@"确定"];
     NSArray *titleColorArray = @[RGBA(0, 0, 0, 0.75),[UIColor whiteColor]];
-    NSArray *bgColorArray = @[[UIColor whiteColor],UIColorFromRGB(NewPinkValue)];
+//    NSArray *bgColorArray = @[[UIColor whiteColor],UIColorFromRGB(NewPinkValue)];
     
     UIView *lastSpaceView = [[UIView alloc]init];
     [bottomView addSubview:lastSpaceView];
@@ -109,8 +109,8 @@
         btn.tag = i;
         [btn setTitle:array[i] forState:UIControlStateNormal];
         [btn setTitleColor:titleColorArray[i] forState:UIControlStateNormal];
-        [btn setBackgroundColor:bgColorArray[i]];
-        btn.titleLabel.font = PF(Regular, 14);
+//        [btn setBackgroundColor:bgColorArray[i]];
+//        btn.titleLabel.font = PF(Regular, 14);
         [bottomView addSubview:btn];
         [btn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(lastSpaceView.mas_right);

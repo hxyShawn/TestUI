@@ -25,7 +25,7 @@ typedef NS_ENUM(NSUInteger, HXYMBProgressHUDMsgType) {
     HXYMBProgressHUDMsgTypeWarning,
     HXYMBProgressHUDMsgTypeInfo
 };
-
+@property (nonatomic,strong)MBProgressHUD *hud;
 /**
  *  @brief  添加一个带菊花的HUD
  *
