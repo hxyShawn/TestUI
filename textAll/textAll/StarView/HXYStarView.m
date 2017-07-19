@@ -57,24 +57,25 @@ static NSInteger maxCnt = 5;
         make.right.equalTo(self.mas_right);
     }];
 }
-
 - (void)setStarCnt:(NSInteger)starCnt
 {
     if (starCnt == 0) {
         starCnt = maxCnt;
     }
     _starCnt = starCnt;
-    
+
     for (NSInteger i = 0; i<maxCnt; i++) {
         UIImageView *imgv = self.array[i];
-        if (i < starCnt) {
+
+        [imgv mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.width.equalTo(@(imgvW));
+        }];
+        if (i >= starCnt) {
             [imgv mas_updateConstraints:^(MASConstraintMaker *make) {
                 make.width.equalTo(@0);
             }];
         }
-        [imgv mas_updateConstraints:^(MASConstraintMaker *make) {
-            make.width.equalTo(@(imgvW));
-        }];
+
     }
 }
 
