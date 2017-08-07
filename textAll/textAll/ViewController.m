@@ -19,6 +19,7 @@
 #import "HXYAlertViewController.h"
 #import <StoreKit/StoreKit.h>
 #import "Case1ViewController.h"
+#import "nineItemView.h"
 @interface ViewController ()<SKStoreProductViewControllerDelegate>
 @property (nonatomic, strong) SKStoreProductViewController *vc;
 @end
@@ -28,17 +29,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    [self.view addSubview:button];
-    [button mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerX.mas_equalTo(self.view);
-        make.centerY.mas_equalTo(self.view);
-        make.size.mas_equalTo(CGSizeMake(200, 50));
+//    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [self.view addSubview:button];
+//    [button mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.centerX.mas_equalTo(self.view);
+//        make.centerY.mas_equalTo(self.view);
+//        make.size.mas_equalTo(CGSizeMake(200, 50));
+//    }];
+//    [button setTitle:@"点击" forState:UIControlStateNormal];
+//    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//    [button addTarget:self action:@selector(BtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+    nineItemView *view = [[nineItemView alloc] init];
+    [self.view addSubview:view];
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
     }];
-    [button setTitle:@"点击" forState:UIControlStateNormal];
-    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(BtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    
 }
+
 - (void)BtnClick:(UIButton *)btn
 {
     HXYLog();

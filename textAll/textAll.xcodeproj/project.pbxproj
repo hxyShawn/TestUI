@@ -91,6 +91,7 @@
 		46E90F411EF3A3910086BD7C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E90F401EF3A3910086BD7C /* QuartzCore.framework */; };
 		46E90F431EF3A3960086BD7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E90F421EF3A3960086BD7C /* UIKit.framework */; };
 		46E90F451EF3A39C0086BD7C /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E90F441EF3A39C0086BD7C /* VideoToolbox.framework */; };
+		DC1881981F388BC5005E184E /* nineItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1881971F388BC5005E184E /* nineItemView.m */; };
 		DC1F66581EE03BA100B2DA20 /* HxyTestCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1F66571EE03BA100B2DA20 /* HxyTestCellViewController.m */; };
 		DC1F665B1EE03BEB00B2DA20 /* HXYMyInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1F665A1EE03BEB00B2DA20 /* HXYMyInfoView.m */; };
 		DC1F66611EE0408C00B2DA20 /* drawCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1F66601EE0408C00B2DA20 /* drawCurve.m */; };
@@ -108,7 +109,6 @@
 		DC46ED811F028A6A005A1302 /* Case7TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED801F028A6A005A1302 /* Case7TableViewController.m */; };
 		DC46ED8B1F069929005A1302 /* Case8Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED861F069929005A1302 /* Case8Cell.m */; };
 		DC46ED8C1F069929005A1302 /* Case8DataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED881F069929005A1302 /* Case8DataEntity.m */; };
-		DC46ED901F069956005A1302 /* Case8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC46ED8F1F069956005A1302 /* Case8ViewController.m */; };
 		DCFDE64D1ED9CACB0006DCFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDE64C1ED9CACB0006DCFE /* main.m */; };
 		DCFDE6501ED9CACB0006DCFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDE64F1ED9CACB0006DCFE /* AppDelegate.m */; };
 		DCFDE6531ED9CACB0006DCFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFDE6521ED9CACB0006DCFE /* ViewController.m */; };
@@ -263,6 +263,8 @@
 		46E90F421EF3A3960086BD7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		46E90F441EF3A39C0086BD7C /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		6156D5A9A04864CA16C79CC9 /* Pods_textAll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_textAll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1881961F388BC5005E184E /* nineItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nineItemView.h; sourceTree = "<group>"; };
+		DC1881971F388BC5005E184E /* nineItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nineItemView.m; sourceTree = "<group>"; };
 		DC1F66561EE03BA100B2DA20 /* HxyTestCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HxyTestCellViewController.h; sourceTree = "<group>"; };
 		DC1F66571EE03BA100B2DA20 /* HxyTestCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HxyTestCellViewController.m; sourceTree = "<group>"; };
 		DC1F66591EE03BEB00B2DA20 /* HXYMyInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXYMyInfoView.h; sourceTree = "<group>"; };
@@ -296,8 +298,6 @@
 		DC46ED861F069929005A1302 /* Case8Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case8Cell.m; sourceTree = "<group>"; };
 		DC46ED871F069929005A1302 /* Case8DataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case8DataEntity.h; sourceTree = "<group>"; };
 		DC46ED881F069929005A1302 /* Case8DataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case8DataEntity.m; sourceTree = "<group>"; };
-		DC46ED8E1F069956005A1302 /* Case8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case8ViewController.h; sourceTree = "<group>"; };
-		DC46ED8F1F069956005A1302 /* Case8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case8ViewController.m; sourceTree = "<group>"; };
 		DCFDE6481ED9CACB0006DCFE /* textAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFDE64C1ED9CACB0006DCFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCFDE64E1ED9CACB0006DCFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -572,6 +572,7 @@
 		467FB8EB1EE94A5C0057998A /* masonry布局系列 */ = {
 			isa = PBXGroup;
 			children = (
+				DC1881951F388B93005E184E /* 九宫格 */,
 				DC33C8E51EFA9759000858A0 /* 有趣的Autolayout2 */,
 				462C4EAD1EEF81F70019E518 /* 测试优先级,压缩阻力,拉伸阻力 */,
 				467FB8F01EE950490057998A /* 动态高度Label */,
@@ -699,6 +700,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DC1881951F388B93005E184E /* 九宫格 */ = {
+			isa = PBXGroup;
+			children = (
+				DC1881961F388BC5005E184E /* nineItemView.h */,
+				DC1881971F388BC5005E184E /* nineItemView.m */,
+			);
+			path = "九宫格";
+			sourceTree = "<group>";
+		};
 		DC33C8E51EFA9759000858A0 /* 有趣的Autolayout2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -785,8 +795,6 @@
 			children = (
 				DC46ED851F069929005A1302 /* Case8Cell.h */,
 				DC46ED861F069929005A1302 /* Case8Cell.m */,
-				DC46ED8E1F069956005A1302 /* Case8ViewController.h */,
-				DC46ED8F1F069956005A1302 /* Case8ViewController.m */,
 				DC46ED871F069929005A1302 /* Case8DataEntity.h */,
 				DC46ED881F069929005A1302 /* Case8DataEntity.m */,
 			);
@@ -1096,17 +1104,7 @@
 				DCFDE6641ED9CF8D0006DCFE /* HXYMyTableViewCell.m in Sources */,
 				DC33C9061EFC05A0000858A0 /* PercentWIdthViewController.m in Sources */,
 				DCFDE6501ED9CACB0006DCFE /* AppDelegate.m in Sources */,
-				DC46ED901F069956005A1302 /* Case8ViewController.m in Sources */,
-				46DAF06D1EFBAAA400DFA687 /* NSDate+HXYCategory.m in Sources */,
-				46DAF0731EFBAAA400DFA687 /* UILabel+HXYCategory.m in Sources */,
-
-
 				463480A41F1C5DD900C5FDC4 /* RotatingView.m in Sources */,
-
-				DC46ED901F069956005A1302 /* Case8ViewController.m in Sources */,
-				46DAF06D1EFBAAA400DFA687 /* NSDate+HXYCategory.m in Sources */,
-				46DAF0731EFBAAA400DFA687 /* UILabel+HXYCategory.m in Sources */,
-
 				467FB8DC1EE8F0170057998A /* AlterableHeightCellViewController.m in Sources */,
 				466EE1871F0B94A200E9D018 /* UIImageView+HXYCategory.m in Sources */,
 				DC46ED811F028A6A005A1302 /* Case7TableViewController.m in Sources */,
@@ -1117,30 +1115,22 @@
 				463ADD221EF110790062422D /* HXYAlertViewController.m in Sources */,
 				DC1F66581EE03BA100B2DA20 /* HxyTestCellViewController.m in Sources */,
 				467FB8DF1EE8F0230057998A /* AlterableHeightCellTableViewCell.m in Sources */,
-				46DAF0711EFBAAA400DFA687 /* UIImage+HXYCategory.m in Sources */,
-				46DAF0761EFBAAA400DFA687 /* UIViewController+HXYCategory.m in Sources */,
 				DC46ED8C1F069929005A1302 /* Case8DataEntity.m in Sources */,
-
 				466EE18B1F0B94A200E9D018 /* UIView+HXYCategory.m in Sources */,
 				463480671F1C4FD500C5FDC4 /* HXYStarView.m in Sources */,
 				4634808C1F1C50BD00C5FDC4 /* ASValueTrackingSlider.m in Sources */,
 				466EE1831F0B94A200E9D018 /* NSString+HXYCategory.m in Sources */,
-
 				46BBC9D31EE10FE900818DD9 /* HXYEstimateStarView.m in Sources */,
 				466EE17A1F0B94A200E9D018 /* HXYAuthenticationView.m in Sources */,
 				466EE17E1F0B94A200E9D018 /* HXYLocationManager.m in Sources */,
 				DC33C9031EFBF975000858A0 /* Case2ViewController.m in Sources */,
 				4634808E1F1C50BD00C5FDC4 /* UIImageView+ZFCache.m in Sources */,
+				DC1881981F388BC5005E184E /* nineItemView.m in Sources */,
 				466EE17B1F0B94A200E9D018 /* HXYBindPhoneView.m in Sources */,
 				DCFDE64D1ED9CACB0006DCFE /* main.m in Sources */,
-				46DAF06F1EFBAAA400DFA687 /* UIButton+HXYCategory.m in Sources */,
-				46DAF0701EFBAAA400DFA687 /* UIColor+HXYCategory.m in Sources */,
 				DC46ED8B1F069929005A1302 /* Case8Cell.m in Sources */,
-
 				46629DD91F00BA9500E3B1B9 /* HXYButton.m in Sources */,
-
 				4634805F1F1C4B9B00C5FDC4 /* HXYCancelTableViewCell.m in Sources */,
-
 				467AD36B1EF2160A00484253 /* SocketManager.m in Sources */,
 				4634808A1F1C50BD00C5FDC4 /* HXYPlayMediumView.m in Sources */,
 				466EE17D1F0B94A200E9D018 /* HXYKVOArrayModel.m in Sources */,
