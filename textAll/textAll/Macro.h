@@ -43,7 +43,7 @@
 #define UIColorAlphaFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:.5]
 #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 #define RGB(r,g,b) RGBA(r,g,b,1.0f)
-
+#define BlackColorValue     0x222222
 #define hxytest(type,fontSize) [UIFont fontWithName:@"PingFangSC-"#type size:fontSize]
 //font
 #define PFFONT(type,fontSize) [UIFont fontWithName:@"PingFangSC-"#type size:fontSize]?[UIFont fontWithName:@"PingFangSC-"#type size:fontSize]: [UIFont fontWithName:@"PingFang-SC-"#type size:fontSize]

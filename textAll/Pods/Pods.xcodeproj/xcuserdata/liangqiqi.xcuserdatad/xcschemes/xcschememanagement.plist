@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TTTAttributedLabel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,6 +47,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4528EC2644E8B4DE1EC35C9834BD42EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>47CDB3EE58B1BC6E52095BC94A07EC3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>57A8205451A1B98E8A9F87645D7426E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8F5C57CDB6551A5057CEEE523A7EB36A</key>
 		<dict>
 			<key>primary</key>
@@ -62,17 +82,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D62724793AD35658C3DD9DD0A5E76D67</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E31BAE32298564C707E596135323A09A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EEF504FF2C83E1CA14DF5F010EAB3B94</key>
+		<key>EB2056401F33B7846B08FC9DF60C7D31</key>
 		<dict>
 			<key>primary</key>
 			<true/>

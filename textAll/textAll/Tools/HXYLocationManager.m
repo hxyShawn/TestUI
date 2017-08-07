@@ -71,8 +71,8 @@
         self.latitude = location.coordinate.latitude;
         self.longitude = location.coordinate.longitude;
         NSUserDefaults *userdefaults = [NSUserDefaults standardUserDefaults];
-        [userdefaults setObject:[NSString stringWithFormat:@"%lf",_latitude] forKey:Latitude];
-        [userdefaults setObject:[NSString stringWithFormat:@"%lf",_longitude] forKey:Longitude];
+//        [userdefaults setObject:[NSString stringWithFormat:@"%lf",_latitude] forKey:Latitude];
+//        [userdefaults setObject:[NSString stringWithFormat:@"%lf",_longitude] forKey:Longitude];
         [userdefaults synchronize];
         
     }

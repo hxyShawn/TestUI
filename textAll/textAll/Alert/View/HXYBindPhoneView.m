@@ -7,7 +7,7 @@
 //
 
 #import "HXYBindPhoneView.h"
-#import <Masonry.h>
+#import "Masonry.h"
 
 @interface HXYBindPhoneView()
 @property (nonatomic, copy) NSString *title;
@@ -27,7 +27,7 @@
 - (void)confUI
 {
     UIImageView *imgv = [[UIImageView alloc]init];
-    imgv.image = img(@"bindPhone");
+//    imgv.image = img(@"bindPhone");
     [self addSubview:imgv];
     
     [imgv mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -40,7 +40,7 @@
     UILabel *label = [[UILabel alloc]init];
     label.text = @"为了您的账户安全\n请先设置密码哦~";
     label.numberOfLines = 2;
-    label.font =PF(Regular, adjustFontSize(13));
+//    label.font =PF(Regular, adjustFontSize(13));
     label.textColor = RGBA(0, 0, 0, 0.54);
     [self addSubview:label];
     
@@ -60,7 +60,7 @@
     NSMutableArray *btnArray = [NSMutableArray array];
     NSArray *array = @[@"取消",self.title];
     NSArray *titleColorArray = @[RGBA(0, 0, 0, 0.75),[UIColor whiteColor]];
-    NSArray *bgColorArray = @[[UIColor whiteColor],UIColorFromRGB(NewPinkValue)];
+//    NSArray *bgColorArray = @[[UIColor whiteColor],UIColorFromRGB(NewPinkValue)];
     
     UIView *lastSpaceView = [[UIView alloc]init];
     [bottomView addSubview:lastSpaceView];
@@ -73,8 +73,8 @@
         btn.tag = i;
         [btn setTitle:array[i] forState:UIControlStateNormal];
         [btn setTitleColor:titleColorArray[i] forState:UIControlStateNormal];
-        [btn setBackgroundColor:bgColorArray[i]];
-        btn.titleLabel.font = PF(Regular, 14);
+//        [btn setBackgroundColor:bgColorArray[i]];
+//        btn.titleLabel.font = PF(Regular, 14);
         [bottomView addSubview:btn];
         [btn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(lastSpaceView.mas_right);
