@@ -7,9 +7,9 @@ target 'textAll' do
   # Pods for textAll
 pod 'Masonry'
 pod 'TTTAttributedLabel'
-pod 'Reveal-SDK', '~> 7', :configurations => ['Debug']
 pod 'UITableView+FDTemplateLayoutCell'
 pod 'DXPopover'
 pod 'CocoaAsyncSocket'
 pod 'SDWebImage'
+pod 'Reveal-SDK', :configurations => ['Debug']
 end

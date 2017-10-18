@@ -1,11 +1,11 @@
 PODS:
   - CocoaAsyncSocket (7.6.1)
   - DXPopover (0.1.1)
-  - Masonry (1.0.2)
-  - Reveal-SDK (7)
-  - SDWebImage (4.0.0):
-    - SDWebImage/Core (= 4.0.0)
-  - SDWebImage/Core (4.0.0)
+  - Masonry (1.1.0)
+  - Reveal-SDK (11)
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
   - TTTAttributedLabel (2.0.0)
   - UITableView+FDTemplateLayoutCell (1.6)
 
@@ -13,7 +13,7 @@ DEPENDENCIES:
   - CocoaAsyncSocket
   - DXPopover
   - Masonry
-  - Reveal-SDK (~> 7)
+  - Reveal-SDK
   - SDWebImage
   - TTTAttributedLabel
   - UITableView+FDTemplateLayoutCell
@@ -21,12 +21,12 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
   DXPopover: 13e6bbd1a0da4e62b2190de51f43a94850769e0f
-  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  Reveal-SDK: 564657bc66c93d2718b1c0121cdebe99d354ddab
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Reveal-SDK: 7fa13d04bb55db61ff2342a990cf731d5159361d
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
 
-PODFILE CHECKSUM: b54625323d4820afff5b21561413d5bccfbe02c7
+PODFILE CHECKSUM: 16795e730ff94717e8a5e4d0fc638689d5b21664
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1

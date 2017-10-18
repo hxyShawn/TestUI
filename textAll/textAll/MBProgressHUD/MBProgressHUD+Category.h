@@ -6,6 +6,10 @@
 //  Copyright © 2016年 FanrongQu. All rights reserved.
 //
 
+
+/*
+    希望可以更自由方便的显示各种样式的progress
+ */
 #import "MBProgressHUD.h"
 
 @interface MBProgressHUD (Category)
@@ -48,8 +52,9 @@
 /**
  *  带有活动指示器的HUD
  *
- *  @param text            标题
- *  @param detailText      副标题
+ *  @param title            标题
+ *  @param detailTitle
+ 副标题
  *  @param color           颜色
  *  @param progressHUDMode 指示器类型
  *  @param view            显示的view
@@ -61,8 +66,8 @@
 /**
  *  带有活动指示器的HUD
  *
- *  @param text            标题
- *  @param detailText      副标题
+ *  @param title            标题
+ *  @param detailTitle      副标题
  *  @param progressHUDMode 指示器类型
  *  @param view            显示的view
  *

@@ -20,6 +20,9 @@
 #import <StoreKit/StoreKit.h>
 #import "Case1ViewController.h"
 #import "nineItemView.h"
+#import "UIButton+HXY.h"
+
+#import "UIView+HXYCategory.h"
 @interface ViewController ()<SKStoreProductViewControllerDelegate>
 @property (nonatomic, strong) SKStoreProductViewController *vc;
 @end
@@ -29,23 +32,57 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-//    [self.view addSubview:button];
-//    [button mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.centerX.mas_equalTo(self.view);
-//        make.centerY.mas_equalTo(self.view);
-//        make.size.mas_equalTo(CGSizeMake(200, 50));
-//    }];
-//    [button setTitle:@"点击" forState:UIControlStateNormal];
-//    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-//    [button addTarget:self action:@selector(BtnClick:) forControlEvents:UIControlEventTouchUpInside];
-    
-    nineItemView *view = [[nineItemView alloc] init];
-    [self.view addSubview:view];
-    [view mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:button];
+    [button mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(self.view);
+        make.centerY.mas_equalTo(self.view);
+        make.size.mas_equalTo(CGSizeMake(200, 100));
     }];
+
+    [button setTitle:@"点击" selectedTitle:@"选择"];
+    [button setTitleColor:[UIColor greenColor] selectedTitleColor:[UIColor blueColor]];
+//    [button setBackgroundColor:[UIColor whiteColor] selectedBackgroundColor: [UIColor blackColor]];
+    [button setImage:[UIImage imageNamed:@"Apple"] selectedImage:[UIImage imageNamed:@"Analyzeloop"]];
+    [button setButtonActionBlock:^(UIButton *button) {
+        NSLog(@"-----");
+        button.selected = !button.selected;
+    }];
+
+
+//
+//    nineItemView *view = [[nineItemView alloc] init];
+//    [self.view addSubview:view];
+//    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.edges.equalTo(self.view);
+//    }];
+//    UIImageView *imgv1 = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"Apple"]];
+//    UIImageView *imgv2 = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"doge"]];
+//    [self.view addSubview:imgv1];
+//    [self.view addSubview:imgv2];
+//    [imgv1 mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.top.equalTo(self.view).offset(16);
+//    }];
+//    [imgv2 mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.right.top.equalTo(self.view).offset(16);
+//    }];
+//    [imgv2 setCornerRadius:5 RoundingCorners:UIRectCornerAllCorners];
     
+    //这里测试了一下合适才会产生frame
+//    UIView *bgView = [[UIView alloc]init];
+//    [self.view addSubview:bgView];
+//    [bgView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.right.equalTo(self.view);
+//        make.size.mas_equalTo(CGSizeMake(100, 100));
+//    }];
+//    bgView.backgroundColor = [UIColor redColor];
+//    HXYLog(@" view frame = %@", NSStringFromCGRect(bgView.frame));
+//    [self.view setNeedsLayout];
+//    [self.view layoutIfNeeded];
+//    HXYLog(@" view frame = %@", NSStringFromCGRect(bgView.frame));
+//    [bgView setCornerRadius:10 RoundingCorners:UIRectCornerAllCorners];
+    
+
 }
 
 - (void)BtnClick:(UIButton *)btn
